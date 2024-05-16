@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Simple Counter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Simple Counter</h1>
+      
+    <h3>Initial Value</h3>
+      <input type="number" id="initialValue" placeholder="Enter initial value">
+  
+    <h3>Max Value</h3>
+      <input type="number" id="maxValue" placeholder="Enter max value">
+  
+      <button id="initializeCounter-btn" onclick="initializeCounter()">Initialize Counter</button>
+      
+    <div class="counter">
+      <button class="increment-btn" onclick="incrementCounter()">+</button>
+      <input type="number" id="counterInput" oninput="updateCounterValue()">
+      <button class="decrement-btn" onclick="decrementCounter()">-</button>
+    </div>
+
+    <h3>Current Value: <span id="counterValue"></span></h3>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

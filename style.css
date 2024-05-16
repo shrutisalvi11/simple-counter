@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container h1{
+    margin: 30px;
+}
+
+.counter{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.increment-btn{
+    height: 50px;
+    width: 120px;
+    padding: 0 40px;
+    border-radius: 10px 0 0 10px;
+    font-size: 40px;
+    background-color: #800000;
+    border: 1px solid #800000;
+    color: white;
+}
+
+.decrement-btn{
+    height: 50px;
+    width: 120px;
+    padding: 0 40px;
+    border-radius: 0 10px 10px 0;
+    font-size: 40px;
+    background-color: #800000;
+    border: 1px solid 	#800000;
+    color: white;
+}
+
+#initializeCounter-btn{
+    width: 390px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #800000;
+    border: 1px solid 	#800000;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#counterInput,#maxValue,#initialValue{
+    height: 50px;
+    min-width: 120px;
+    background-color: rgba(255, 0, 0, 0.187);
+    border: 1px solid #800000;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
